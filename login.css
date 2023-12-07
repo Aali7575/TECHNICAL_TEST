@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  .login-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .logo {
+    text-align: center;
+    font-size: 50px;
+    color: #f16529;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #f16529;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .social-login {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-login a {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .social-login a:hover {
+    background-color: #ccc;
+
+  }
+  

@@ -148,3 +148,8 @@ line-height: 36px;
 color: #000000;
 
 }
+
+.custom-image {
+    
+background: url(viss fashions.jpg);
+}
