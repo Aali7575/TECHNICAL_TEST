@@ -8,15 +8,29 @@ body {
     background-color: #fff;
   }
   
-  .login-form {
-    padding: 20px;
-    border: 1px solid #ccc;
-  }
+
   
   .logo {
-    text-align: center;
-    font-size: 50px;
-    color: #f16529;
+    width: 265px;
+height: 48px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 48px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #333333;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
   }
   
   input {
@@ -50,4 +64,27 @@ body {
     background-color: #ccc;
 
   }
+
+.use {
+    /* Use your email or other serivce to continue with us */
+
+width: 402px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #666666;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
   
