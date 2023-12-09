@@ -1,10 +1,10 @@
-/* Reset some default styles for the body */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
   }
   
-  /* Navigation styles */
+
   .navigation {
     list-style: none;
     display: flex;
@@ -18,12 +18,12 @@ body {
     color: #333;
   }
   
-  /* Add margin to specific list items */
+  
   .navigation li:not(:first-child):not(:last-child) {
     margin-right: 15px;
   }
   
-  /* Center and align text to the left within a container */
+  
   .center-container {
     display: flex;
     justify-content: space-between;
@@ -33,7 +33,7 @@ body {
     
   }
   
-  /* Center specific navigation items with space between */
+  
   .navigation .centered-items {
     display: flex;
     align-items: center;
@@ -55,8 +55,7 @@ left: 694px;
 top: 57px;
 
   }
-  
-  /* Adjust the margin for the first and last list items */
+ 
   .navigation li:first-child {
     margin-right: 10px;
   }
@@ -65,7 +64,7 @@ top: 57px;
     margin-left: 10px;
   }
   
-  /* Optional styling for the Buy Now button */
+ 
   .primary {
     background: #E87A14;
 border-radius: 20px;
@@ -76,7 +75,7 @@ left: 102px;
 top: 754px;
   }
   
-  /* Hover effect for the Buy Now button */
+
   .primary:hover {
     background-color: #8ba045;
   }
@@ -104,8 +103,8 @@ font-weight: 300;
 font-size: 48px;
 line-height: 30px;
 letter-spacing: 0.1em;
-line-height: 1.2; /* Adjusted line height */
-height: auto; /* Adjusted height to accommodate content */
+line-height: 1.2; 
+height: auto; 
 width: 910px;
 height: 230px;
 left: 100px;
@@ -146,7 +145,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 24px;
 line-height: 36px;
-/* identical to box height */
+
 
 color: #000000;
 
@@ -154,9 +153,9 @@ color: #000000;
 
 .text-content {
     text-align: left;
-    width: 50%; /* Adjust the width as needed */
+    width: 50%; 
 }
 
 .custom-image {
-    width: 50%; /* Adjust the width as needed */
+    width: 50%; 
 }
